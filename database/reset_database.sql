@@ -1,0 +1,4 @@
+-- Convenience script: reset tables and sample data.
+-- Usage on Raspberry Pi from project folder:
+-- sudo mysql < database/schema.sql
+-- sudo mysql < database/seed.sql
