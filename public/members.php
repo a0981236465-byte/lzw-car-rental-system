@@ -14,7 +14,6 @@ $members = db()->query("SELECT * FROM members ORDER BY FIELD(name, '陳昱丞', 
                 <h3><?= e($member['name']) ?></h3>
                 <p><strong>Student ID:</strong> <?= e($member['student_id']) ?></p>
                 <p><strong>Role:</strong> <?= e($member['role']) ?></p>
-                <p><?= nl2br(e($member['intro'])) ?></p>
             </article>
         <?php endforeach; ?>
     </div>

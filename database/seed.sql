@@ -1,11 +1,11 @@
 USE lzw_car_rental;
 
 INSERT INTO members (student_id, name, role, intro) VALUES
-('413850446', '陳昱丞', 'Project Integrator / Main Developer', 'Workload and difficulty rank: 1. Responsible for overall integration, authentication flow, role control, database scripts, and final deployment.'),
-('413850305', '宋柏穎', 'Backend Developer', 'Workload and difficulty rank: 2. Responsible for PHP database connection, CRUD logic, session handling, and server-side validation.'),
-('413850297', '李諺儒', 'System Tester', 'Workload and difficulty rank: 3. Responsible for testing rental workflows, checking CRUD operations, and verifying booking conflict behavior.'),
-('413850164', '侯冠丞', 'Database Designer', 'Workload and difficulty rank: 4. Responsible for relational database design, table relationships, and sample data preparation.'),
-('413850149', '張恩睿', 'Documentation Support', 'Workload and difficulty rank: 5. Responsible for basic page layout support and project documentation assistance.');
+('413850446', '陳昱丞', 'Project Integrator / Main Developer', 'Responsible for overall integration, authentication flow, role control, database scripts, and final deployment.'),
+('413850305', '宋柏穎', 'Backend Developer', 'Responsible for PHP database connection, CRUD logic, session handling, and server-side validation.'),
+('413850297', '李諺儒', 'System Tester', 'Responsible for testing rental workflows, checking CRUD operations, and verifying booking conflict behavior.'),
+('413850164', '侯冠丞', 'Database Designer', 'Responsible for relational database design, table relationships, and sample data preparation.'),
+('413850149', '張恩睿', 'Documentation Support', 'Responsible for basic page layout support and project documentation assistance.');
 
 -- Default accounts:
 -- Admin email: admin@lzw.local / password: admin123
